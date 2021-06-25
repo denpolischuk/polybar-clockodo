@@ -2,6 +2,10 @@
 
 A polybar tool to check what's your current task in clockodo.
 
+## Dependencies
+ - [jq](https://stedolan.github.io/jq/)
+ - [curl](https://curl.se/)
+
 ## Usage
 Before use - update script with your API key and email.
 
