@@ -15,6 +15,8 @@ CURRENT_TASK=$(echo $CURRENT_CLOCK | jq -r '.running.text')
 ICON=""
 
 if [[ "$CURRENT_TASK" != "null" ]]; then
-    echo "$ICON ${CURRENT_TASK:0:20}..." 
+  echo "$ICON ${CURRENT_TASK:0:20}..." 
+else
+  echo ""
 fi
 
